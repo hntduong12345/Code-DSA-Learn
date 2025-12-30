@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic_Squares_In_Grid", "Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pyramid_Transition_Matrix", "Pyramid_Transition_Matrix\Pyramid_Transition_Matrix.csproj", "{654AA7E2-5810-4915-AE5E-40331B0B114B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum_of_Digits_of_String_After_Convert", "Sum_of_Digits_of_String_After_Convert\Sum_of_Digits_of_String_After_Convert.csproj", "{1A3AC752-056D-4358-B923-FA584427163C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{654AA7E2-5810-4915-AE5E-40331B0B114B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{654AA7E2-5810-4915-AE5E-40331B0B114B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{654AA7E2-5810-4915-AE5E-40331B0B114B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A3AC752-056D-4358-B923-FA584427163C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3AC752-056D-4358-B923-FA584427163C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3AC752-056D-4358-B923-FA584427163C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3AC752-056D-4358-B923-FA584427163C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{87310261-FFD4-494B-967E-3F8FB35E78EC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{4E2CE84E-9551-48F5-BE35-B547208E0084} = {4DC77B89-659C-44F1-9071-ECA623EF9FB4}
 		{654AA7E2-5810-4915-AE5E-40331B0B114B} = {4DC77B89-659C-44F1-9071-ECA623EF9FB4}
+		{1A3AC752-056D-4358-B923-FA584427163C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F4B3B94-6FBA-4055-BB5B-06424E99DD18}
