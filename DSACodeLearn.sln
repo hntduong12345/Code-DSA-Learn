@@ -1,9 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSACodeLearn", "DSACodeLearn\DSACodeLearn.csproj", "{6EF3292F-5963-4306-B19A-62C6D7D2016D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{4DC77B89-659C-44F1-9071-ECA623EF9FB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hard", "Hard", "{CB1D970F-627C-4AED-803E-06EBBDA0E848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimum_Deletions_for_At_Most_K_Distinct_Characters", "Minimum_Deletions_for_At_Most_K_Distinct_Characters\Minimum_Deletions_for_At_Most_K_Distinct_Characters.csproj", "{87310261-FFD4-494B-967E-3F8FB35E78EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic_Squares_In_Grid", "Magic_Squares_In_Grid\Magic_Squares_In_Grid.csproj", "{4E2CE84E-9551-48F5-BE35-B547208E0084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pyramid_Transition_Matrix", "Pyramid_Transition_Matrix\Pyramid_Transition_Matrix.csproj", "{654AA7E2-5810-4915-AE5E-40331B0B114B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,26 @@ Global
 		{6EF3292F-5963-4306-B19A-62C6D7D2016D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EF3292F-5963-4306-B19A-62C6D7D2016D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EF3292F-5963-4306-B19A-62C6D7D2016D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87310261-FFD4-494B-967E-3F8FB35E78EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87310261-FFD4-494B-967E-3F8FB35E78EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87310261-FFD4-494B-967E-3F8FB35E78EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87310261-FFD4-494B-967E-3F8FB35E78EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E2CE84E-9551-48F5-BE35-B547208E0084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2CE84E-9551-48F5-BE35-B547208E0084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2CE84E-9551-48F5-BE35-B547208E0084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2CE84E-9551-48F5-BE35-B547208E0084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654AA7E2-5810-4915-AE5E-40331B0B114B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654AA7E2-5810-4915-AE5E-40331B0B114B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654AA7E2-5810-4915-AE5E-40331B0B114B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654AA7E2-5810-4915-AE5E-40331B0B114B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87310261-FFD4-494B-967E-3F8FB35E78EC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4E2CE84E-9551-48F5-BE35-B547208E0084} = {4DC77B89-659C-44F1-9071-ECA623EF9FB4}
+		{654AA7E2-5810-4915-AE5E-40331B0B114B} = {4DC77B89-659C-44F1-9071-ECA623EF9FB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F4B3B94-6FBA-4055-BB5B-06424E99DD18}
