@@ -20,8 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{4DC77B
 		Find Mirror Score of a String.cs = Find Mirror Score of a String.cs
 		Four Divisors.cs = Four Divisors.cs
 		Magic_Squares_In_Grid.cs = Magic_Squares_In_Grid.cs
+		Maximum Level Sum of a Binary Tree.cs = Maximum Level Sum of a Binary Tree.cs
 		Maximum Matrix Sum.cs = Maximum Matrix Sum.cs
 		Pyramid_Transition_Matrix.cs = Pyramid_Transition_Matrix.cs
+		String Compression.cs = String Compression.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hard", "Hard", "{CB1D970F-627C-4AED-803E-06EBBDA0E848}"
