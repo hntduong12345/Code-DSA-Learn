@@ -4,8 +4,8 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        TreeNode root = new TreeNode(1, 
-            new TreeNode(7, 
+        TreeNode root = new TreeNode(1,
+            new TreeNode(7,
                 new TreeNode(7),
                 new TreeNode(-8)),
             new TreeNode(0));
