@@ -23,6 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{4DC77B
 		Magic_Squares_In_Grid.cs = Magic_Squares_In_Grid.cs
 		Maximum Level Sum of a Binary Tree.cs = Maximum Level Sum of a Binary Tree.cs
 		Maximum Matrix Sum.cs = Maximum Matrix Sum.cs
+		Maximum Product of Splitted Binary Tree.cs = Maximum Product of Splitted Binary Tree.cs
 		Pyramid_Transition_Matrix.cs = Pyramid_Transition_Matrix.cs
 		String Compression.cs = String Compression.cs
 	EndProjectSection
