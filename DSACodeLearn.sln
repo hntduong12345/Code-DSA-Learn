@@ -25,11 +25,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{4DC77B
 		Maximum Matrix Sum.cs = Maximum Matrix Sum.cs
 		Maximum Product of Splitted Binary Tree.cs = Maximum Product of Splitted Binary Tree.cs
 		Pyramid_Transition_Matrix.cs = Pyramid_Transition_Matrix.cs
+		Smallest Subtree with all the Deepest Nodes.cs = Smallest Subtree with all the Deepest Nodes.cs
 		String Compression.cs = String Compression.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hard", "Hard", "{CB1D970F-627C-4AED-803E-06EBBDA0E848}"
 	ProjectSection(SolutionItems) = preProject
+		Max Dot Product of Two Subsequences.cs = Max Dot Product of Two Subsequences.cs
 		Number of Ways to Paint N × 3 Grid.cs = Number of Ways to Paint N × 3 Grid.cs
 	EndProjectSection
 EndProject
