@@ -20,6 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{4DC77B
 		Count_Nice_Pairs_in_an_Array.cs = Count_Nice_Pairs_in_an_Array.cs
 		Find Mirror Score of a String.cs = Find Mirror Score of a String.cs
 		Four Divisors.cs = Four Divisors.cs
+		Longest Common Subsequence.cs = Longest Common Subsequence.cs
 		Magic_Squares_In_Grid.cs = Magic_Squares_In_Grid.cs
 		Maximum Level Sum of a Binary Tree.cs = Maximum Level Sum of a Binary Tree.cs
 		Maximum Matrix Sum.cs = Maximum Matrix Sum.cs
