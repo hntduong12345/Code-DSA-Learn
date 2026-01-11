@@ -4,10 +4,9 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        string text1 = "delete";
-        string text2 = "leet";
+        char[][] matrix = [["1", "0", "1", "0", "0"], ["1", "0", "1", "1", "1"], ["1", "1", "1", "1", "1"], ["1", "0", "0", "1", "0"]];
 
-        Console.WriteLine(MinimumDeleteSum(text1, text2));
+        Console.WriteLine(MaximalRectangle(matrix));
     }
 
     public static int MaximalRectangle(char[][] matrix)
