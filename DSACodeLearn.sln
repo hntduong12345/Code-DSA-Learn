@@ -30,6 +30,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{4DC77B
 		Maximum Product of Splitted Binary Tree.cs = Maximum Product of Splitted Binary Tree.cs
 		Minimum ASCII Delete Sum for Two Strings.cs = Minimum ASCII Delete Sum for Two Strings.cs
 		Pyramid_Transition_Matrix.cs = Pyramid_Transition_Matrix.cs
+		Separate Squares I.cs = Separate Squares I.cs
 		Smallest Subtree with all the Deepest Nodes.cs = Smallest Subtree with all the Deepest Nodes.cs
 		String Compression.cs = String Compression.cs
 	EndProjectSection
