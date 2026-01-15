@@ -4,146 +4,54 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        int[][] squares = [[0, 0, 1], [2, 2, 1]];
+        int[] hBars = [6, 12, 13, 19, 2, 10, 17, 14, 11, 4, 15];
+        int[] vBars = [8, 5, 10, 9, 3, 2, 6, 7, 4];
 
-        Console.WriteLine(SeparateSquares(squares));
+        int m = 9, n = 20;
+
+        Console.WriteLine(MaximizeSquareHoleArea(n,m,hBars,vBars));
     }
 
-    public static class SegmentTree
+    public static int MaximizeSquareHoleArea(int n, int m, int[] hBars, int[] vBars)
     {
-        private int[] count;
-        private int[] covered;
-        private int[] xs;
-        private int n;
+        Array.Sort(hBars);
+        Array.Sort(vBars);
 
-        public SegmentTree(int[] xs_)
+        int hStart = hBars[0], hEnd = hBars[0], hConLength = 1;
+        int vStart = vBars[0], vEnd = vBars[0], vConLength = 1;
+        //Find longest sequence of consecutive value in horizontal bars
+        for (int i = 1; i < hBars.Length; i++)
         {
-            xs = xs_;
-            n = xs.Length - 1;
-            count = new int[4 * n];
-            covered = new int[4 * n];
-        }
-
-        private void Modify(int qleft, int qright, int qval, int left, int right,
-                            int pos)
-        {
-            if (xs[right + 1] <= qleft || xs[left] >= qright)
+            if (hBars[i] - 1 != hBars[i - 1] || hBars[i] == n + 2)
             {
-                return;
-            }
-            if (qleft <= xs[left] && xs[right + 1] <= qright)
-            {
-                count[pos] += qval;
+                hConLength = Math.Max(hEnd - hStart + 1, hConLength);
+                hStart = hBars[i];
+                hEnd = hBars[i];
             }
             else
             {
-                int mid = (left + right) / 2;
-                Modify(qleft, qright, qval, left, mid, pos * 2 + 1);
-                Modify(qleft, qright, qval, mid + 1, right, pos * 2 + 2);
+                hEnd = hBars[i];
             }
+        }
+        hConLength = Math.Max(hEnd - hStart + 1, hConLength);
 
-            if (count[pos] > 0)
+        //Find longest sequence of consecutive value in vertical bars
+        for (int i = 1; i < vBars.Length; i++)
+        {
+            if (vBars[i] - 1 != vBars[i - 1] || vBars[i] == m + 2)
             {
-                covered[pos] = xs[right + 1] - xs[left];
+                vConLength = Math.Max(vEnd - vStart + 1, vConLength);
+                vStart = vBars[i];
+                vEnd = vBars[i];
             }
             else
             {
-                if (left == right)
-                {
-                    covered[pos] = 0;
-                }
-                else
-                {
-                    covered[pos] = covered[pos * 2 + 1] + covered[pos * 2 + 2];
-                }
+                vEnd = vBars[i];
             }
         }
+        vConLength = Math.Max(vEnd - vStart + 1, vConLength);
 
-        public void Update(int qleft, int qright, int qval)
-        {
-            Modify(qleft, qright, qval, 0, n - 1, 0);
-        }
-
-        public int Query()
-        {
-            return covered[0];
-        }
-    }
-
-
-    public static double SeparateSquares(int[][] squares)
-    {
-        // save events: (y-coordinate, type, left boundary, right boundary)
-        List<int[]> events = new List<int[]>();
-        SortedSet<int> xsSet = new SortedSet<int>();
-
-        foreach (var sq in squares)
-        {
-            int x = sq[0], y = sq[1], l = sq[2];
-            int xr = x + l;
-            events.Add(new int[] { y, 1, x, xr });
-            events.Add(new int[] { y + l, -1, x, xr });
-            xsSet.Add(x);
-            xsSet.Add(xr);
-        }
-
-        // sort events by y-coordinate
-        events.Sort((a, b) => a[0].CompareTo(b[0]));
-        // discrete coordinates
-        int[] xs = xsSet.ToArray();
-        // initialize the segment tree
-        SegmentTree segTree = new SegmentTree(xs);
-
-        List<long> psum = new List<long>();
-        List<int> widths = new List<int>();
-        long totalArea = 0;
-        int prev = events[0][0];
-
-        // scan: calculate total area and record intermediate states
-        foreach (var eventItem in events)
-        {
-            int y = eventItem[0], delta = eventItem[1], xl = eventItem[2],
-                xr = eventItem[3];
-            int len = segTree.Query();
-            totalArea += (long)len * (y - prev);
-            segTree.Update(xl, xr, delta);
-            // record prefix sums and widths
-            psum.Add(totalArea);
-            widths.Add(segTree.Query());
-            prev = y;
-        }
-
-        // calculate the target area (half rounded up)
-        long target = (totalArea + 1) / 2;
-        // find the first position greater than or equal to target using binary
-        // search
-        int idx = BinarySearch(psum, target);
-        // get the corresponding area, width, and height
-        double area = psum[idx];
-        int width = widths[idx], height = events[idx][0];
-
-        return height + (totalArea - area * 2) / (width * 2.0);
-    }
-
-    private static int BinarySearch(List<long> list, long target)
-    {
-        int left = 0;
-        int right = list.Count - 1;
-        int result = 0;
-
-        while (left <= right)
-        {
-            int mid = left + (right - left) / 2;
-            if (list[mid] < target)
-            {
-                result = mid;
-                left = mid + 1;
-            }
-            else
-            {
-                right = mid - 1;
-            }
-        }
-        return result;
+        int sideLength = Math.Min(vConLength + 1, hConLength + 1);
+        return sideLength * sideLength;
     }
 }
