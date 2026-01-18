@@ -24,6 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{4DC77B
 		Find Mirror Score of a String.cs = Find Mirror Score of a String.cs
 		Find the Largest Area of Square Inside Two Rectangles.cs = Find the Largest Area of Square Inside Two Rectangles.cs
 		Four Divisors.cs = Four Divisors.cs
+		Largest Magic Square.cs = Largest Magic Square.cs
 		Longest Common Subsequence.cs = Longest Common Subsequence.cs
 		Magic_Squares_In_Grid.cs = Magic_Squares_In_Grid.cs
 		Maximal Square.cs = Maximal Square.cs
