@@ -17,6 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{02EA681E-C
 		Plus_One.cs = Plus_One.cs
 		Projection Area of 3D Shapes.cs = Projection Area of 3D Shapes.cs
 		Sum_of_Digits_of_String_After_Convert.cs = Sum_of_Digits_of_String_After_Convert.cs
+		The Employee That Worked on the Longest Task.cs = The Employee That Worked on the Longest Task.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{4DC77B89-659C-44F1-9071-ECA623EF9FB4}"
