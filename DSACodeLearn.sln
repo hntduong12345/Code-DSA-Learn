@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{02EA681E-C
 		Maximum Repeating Substring.cs = Maximum Repeating Substring.cs
 		Minimum Time Visiting All Points.cs = Minimum Time Visiting All Points.cs
 		Minimum_Deletions_for_At_Most_K_Distinct_Characters.cs = Minimum_Deletions_for_At_Most_K_Distinct_Characters.cs
+		Most Frequent Number Following Key In an Array.cs = Most Frequent Number Following Key In an Array.cs
 		N-Repeated Element in Size 2N Array.cs = N-Repeated Element in Size 2N Array.cs
 		Plus_One.cs = Plus_One.cs
 		Projection Area of 3D Shapes.cs = Projection Area of 3D Shapes.cs
