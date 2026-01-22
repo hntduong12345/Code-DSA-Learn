@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{02EA681E-C
 		Majority Frequency Characters.cs = Majority Frequency Characters.cs
 		Maximum Average Subarray I.cs = Maximum Average Subarray I.cs
 		Maximum Repeating Substring.cs = Maximum Repeating Substring.cs
+		Minimum Pair Removal to Sort Array I.cs = Minimum Pair Removal to Sort Array I.cs
 		Minimum Time Visiting All Points.cs = Minimum Time Visiting All Points.cs
 		Minimum_Deletions_for_At_Most_K_Distinct_Characters.cs = Minimum_Deletions_for_At_Most_K_Distinct_Characters.cs
 		Most Frequent Number Following Key In an Array.cs = Most Frequent Number Following Key In an Array.cs
@@ -26,8 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{02EA681E-C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{4DC77B89-659C-44F1-9071-ECA623EF9FB4}"
 	ProjectSection(SolutionItems) = preProject
-		Count_Nice_Pairs_in_an_Array.cs = Count_Nice_Pairs_in_an_Array.cs
 		Construct the Minimum Bitwise Array II.cs = Construct the Minimum Bitwise Array II.cs
+		Count_Nice_Pairs_in_an_Array.cs = Count_Nice_Pairs_in_an_Array.cs
 		Find Mirror Score of a String.cs = Find Mirror Score of a String.cs
 		Find the Largest Area of Square Inside Two Rectangles.cs = Find the Largest Area of Square Inside Two Rectangles.cs
 		Four Divisors.cs = Four Divisors.cs
