@@ -42,6 +42,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{4DC77B
 		Maximum Product of Splitted Binary Tree.cs = Maximum Product of Splitted Binary Tree.cs
 		Maximum Side Length of a Square with Sum Less than or Equal to Threshold.cs = Maximum Side Length of a Square with Sum Less than or Equal to Threshold.cs
 		Maximum Square Area by Removing Fences From a Field.cs = Maximum Square Area by Removing Fences From a Field.cs
+		Minimize Maximum Pair Sum in Array.cs = Minimize Maximum Pair Sum in Array.cs
 		Minimum ASCII Delete Sum for Two Strings.cs = Minimum ASCII Delete Sum for Two Strings.cs
 		Pyramid_Transition_Matrix.cs = Pyramid_Transition_Matrix.cs
 		Separate Squares I.cs = Separate Squares I.cs
