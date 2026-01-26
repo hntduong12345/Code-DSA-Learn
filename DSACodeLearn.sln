@@ -14,6 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{02EA681E-C
 		Maximum Average Subarray I.cs = Maximum Average Subarray I.cs
 		Maximum Repeating Substring.cs = Maximum Repeating Substring.cs
 		Minimum Absolute Difference.cs = Minimum Absolute Difference.cs
+		Minimum Cost of Buying Candies With Discount.cs = Minimum Cost of Buying Candies With Discount.cs
 		Minimum Difference Between Highest and Lowest of K Scores.cs = Minimum Difference Between Highest and Lowest of K Scores.cs
 		Minimum Pair Removal to Sort Array I.cs = Minimum Pair Removal to Sort Array I.cs
 		Minimum Time Visiting All Points.cs = Minimum Time Visiting All Points.cs

@@ -4,7 +4,7 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        int[] nums = [1,2,3,4,5,6];
+        int[] nums = [1, 2, 3, 4, 5, 6];
 
         Console.WriteLine(MinimumCost(nums));
     }
