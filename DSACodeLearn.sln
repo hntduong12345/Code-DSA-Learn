@@ -59,6 +59,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hard", "Hard", "{CB1D970F-6
 	ProjectSection(SolutionItems) = preProject
 		Max Dot Product of Two Subsequences.cs = Max Dot Product of Two Subsequences.cs
 		Maximal Rectangle.cs = Maximal Rectangle.cs
+		Minimum Cost Path with Teleportations.cs = Minimum Cost Path with Teleportations.cs
 		Minimum Pair Removal to Sort Array II.cs = Minimum Pair Removal to Sort Array II.cs
 		Number of Ways to Paint N × 3 Grid.cs = Number of Ways to Paint N × 3 Grid.cs
 		Separate Squares II.cs = Separate Squares II.cs
