@@ -10,7 +10,7 @@ class Solution
         char[] changed = ['c', 'b'];
         int[] cost = [1, 2];
 
-        Console.WriteLine(MinimumCost(source, target,original, changed, cost));
+        Console.WriteLine(MinimumCost(source, target, original, changed, cost));
     }
 
     public static long MinimumCost(string source, string target, char[] original, char[] changed, int[] cost)

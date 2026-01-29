@@ -49,6 +49,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{4DC77B
 		Minimize Maximum Pair Sum in Array.cs = Minimize Maximum Pair Sum in Array.cs
 		Minimum ASCII Delete Sum for Two Strings.cs = Minimum ASCII Delete Sum for Two Strings.cs
 		Minimum Cost Path with Edge Reversals.cs = Minimum Cost Path with Edge Reversals.cs
+		Minimum Cost to Convert String I.cs = Minimum Cost to Convert String I.cs
 		Pyramid_Transition_Matrix.cs = Pyramid_Transition_Matrix.cs
 		Separate Squares I.cs = Separate Squares I.cs
 		Smallest Subtree with all the Deepest Nodes.cs = Smallest Subtree with all the Deepest Nodes.cs
