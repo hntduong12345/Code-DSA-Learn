@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{02EA681E-C
 		Check if Grid Satisfies Conditions.cs = Check if Grid Satisfies Conditions.cs
 		Day of the Year.cs = Day of the Year.cs
 		Final Array State After K Multiplication Operations I.cs = Final Array State After K Multiplication Operations I.cs
+		Flipping an Image.cs = Flipping an Image.cs
 		Longest Nice Substring.cs = Longest Nice Substring.cs
 		Majority Frequency Characters.cs = Majority Frequency Characters.cs
 		Maximum Average Subarray I.cs = Maximum Average Subarray I.cs
