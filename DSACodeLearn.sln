@@ -38,6 +38,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{02EA681E-C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{4DC77B89-659C-44F1-9071-ECA623EF9FB4}"
 	ProjectSection(SolutionItems) = preProject
+		Champagne Tower.cs = Champagne Tower.cs
 		Construct the Minimum Bitwise Array II.cs = Construct the Minimum Bitwise Array II.cs
 		Count_Nice_Pairs_in_an_Array.cs = Count_Nice_Pairs_in_an_Array.cs
 		Find Mirror Score of a String.cs = Find Mirror Score of a String.cs
