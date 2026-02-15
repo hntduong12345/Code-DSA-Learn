@@ -42,7 +42,7 @@
 
             aIndex--;
         }
-
+        
         while (bIndex >= 0)
         {
             sum = b[bIndex] - '0' + add;
