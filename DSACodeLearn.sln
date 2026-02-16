@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{02EA681E-C
 		Count Monobit Integers.cs = Count Monobit Integers.cs
 		Day of the Year.cs = Day of the Year.cs
 		Divide an Array Into Subarrays With Minimum Cost I.cs = Divide an Array Into Subarrays With Minimum Cost I.cs
+		Equal Score Substrings.cs = Equal Score Substrings.cs
 		Final Array State After K Multiplication Operations I.cs = Final Array State After K Multiplication Operations I.cs
 		Find Smallest Letter Greater Than Target.cs = Find Smallest Letter Greater Than Target.cs
 		Flipping an Image.cs = Flipping an Image.cs
